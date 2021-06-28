@@ -1,6 +1,6 @@
-# Python `match` `case` サンプル集
+# Python 3 構造的パターンマッチングサンプル集
 
-(Japanese) Python 3.10 で導入された `match` `case` 構文のサンプル集です。
+(Japanese) Python 3.10 で導入された Structural Pattern Matching （ `match` `case` 構文）のサンプル集です。
 
 ## 必須
 
@@ -24,7 +24,25 @@ Pytest でサンプルを実行します。
 docker-compose run --rm python
 ```
 
+## サンプル
+
+```python
+def test_literal_pattern():
+    """リテラルパターン"""
+    number = 10
+    match number:
+        case 0:
+            assert False
+        # 値が一致するものがマッチ
+        case 10:
+            assert True
+        case _:
+            assert False
+```
+
 ## テストケース
+
+`test_match_case.py` ファイルに以下のケースが含まれています。
 
 | ケース | 関数 |
 | --- | --- |
