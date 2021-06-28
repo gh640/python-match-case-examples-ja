@@ -133,6 +133,7 @@ def test_sequence_pattern_2_tuple_like_syntax():
 
 
 def test_mapping_pattern():
+    """マッピングパターン"""
     adict = {
         'タコ': 'たこ焼き',
         'イカ': 'いか焼き',
@@ -178,6 +179,7 @@ class Product:
 
 
 def test_class_pattern_1_positional_args():
+    """クラスパターン 1"""
     product = Product('tako', 'たこ焼き')
     match product:
         # `name` が異なる
@@ -204,6 +206,7 @@ class Point:
 
 
 def test_class_pattern_2_match_args():
+    """クラスパターン 2"""
     point = Point(3, 5)
     match point:
         case Point(3, 10):
@@ -217,6 +220,7 @@ def test_class_pattern_2_match_args():
 
 
 def test_class_pattern_3_with_if_guard():
+    """クラスパターン 3"""
     point = Point(3, 5)
     match point:
         case Point(x, y) if x > y:
