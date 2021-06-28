@@ -47,7 +47,7 @@ def test_literal_pattern():
 | ケース | 関数 |
 | --- | --- |
 | リテラルパターン | `test_literal_pattern()` |
-| or `|` パターン | `test_literal_with_or_pattern()` |
+| or `\|` パターン | `test_literal_with_or_pattern()` |
 | キャプチャパターン | `test_capture_pattern()` |
 | ワイルドカード `_` パターン | `test_wildcard_pattern()` |
 | バリューパターン 1 | `test_value_pattern_1_attrs()` |
