@@ -65,3 +65,4 @@ def test_literal_pattern():
 ## 参考
 
 - PEP 634 (dev): https://www.python.org/dev/peps/pep-0634/
+- What’s New In Python 3.10  - Python 3.10 documentation: https://docs.python.org/3.10/whatsnew/3.10.html
