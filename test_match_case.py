@@ -1,6 +1,5 @@
-"""Python 3.10 で導入された match case 構文でさまざまなパターンを試す"""
+"""Python 3 の構造的パターンマッチング（ match case 構文）の利用サンプル"""
 import pytest
-from dataclasses import dataclass
 from enum import Enum
 
 
@@ -23,7 +22,7 @@ def test_literal_with_or_pattern():
     match status:
         case 200:
             assert False
-        # いずれかが一致するものがマッチ
+        # いずれかが一致すればマッチ
         case 500 | 501 | 502 | 503:
             assert True
         case _:
