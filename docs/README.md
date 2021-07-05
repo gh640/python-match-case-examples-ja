@@ -62,7 +62,13 @@ def test_literal_pattern():
 | クラスパターン 3 | `test_class_pattern_3_with_if_guard()` |
 | `as` パターン | `test_as_pattern()` |
 
+## 記事
+
+- [パターンマッチング構文（ match case ）の使い方 - Life with Python](https://www.lifewithpython.com/2021/06/python-structual-pattern-matching.html)
+
 ## 参考
 
 - PEP 634 (dev): https://www.python.org/dev/peps/pep-0634/
+- PEP 635 (dev): https://www.python.org/dev/peps/pep-0635/
+- PEP 636 (dev): https://www.python.org/dev/peps/pep-0636/
 - What’s New In Python 3.10  - Python 3.10 documentation: https://docs.python.org/3.10/whatsnew/3.10.html
