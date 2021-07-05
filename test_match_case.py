@@ -118,6 +118,8 @@ def test_sequence_pattern_1_list_like_syntax():
             assert True
             assert count == 1
             assert topping is True
+        case _:
+            assert False
 
 
 def test_sequence_pattern_2_tuple_like_syntax():
