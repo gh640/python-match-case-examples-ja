@@ -1,5 +1,4 @@
-# `3.10` は未リリースなので `3.10-rc-buster` を使う
-FROM python:3.10-rc-buster
+FROM python:3.10
 
 RUN python -m pip install pytest
 
